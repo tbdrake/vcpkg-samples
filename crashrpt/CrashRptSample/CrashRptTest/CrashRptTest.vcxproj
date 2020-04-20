@@ -66,8 +66,7 @@
       <AdditionalDependencies>Rpcrt4.lib;Version.lib;$(VcpkgRoot)debug\lib\manual-link\gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(VcpkgRoot)tools\crashrpt\dbghelp.dll" "$(TargetDir)"
-copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
+      <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
 copy "$(VcpkgRoot)debug\tools\crashrpt\CrashSender1403d.exe" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -88,8 +87,7 @@ copy "$(VcpkgRoot)debug\tools\crashrpt\CrashSender1403d.exe" "$(TargetDir)"</Com
       <AdditionalDependencies>Rpcrt4.lib;Version.lib;$(VcpkgRoot)debug\lib\manual-link\gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(VcpkgRoot)tools\crashrpt\dbghelp.dll" "$(TargetDir)"
-copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
+      <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
 copy "$(VcpkgRoot)debug\tools\crashrpt\CrashSender1403d.exe" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -111,8 +109,7 @@ copy "$(VcpkgRoot)debug\tools\crashrpt\CrashSender1403d.exe" "$(TargetDir)"</Com
       <AdditionalDependencies>Rpcrt4.lib;Version.lib;$(VcpkgRoot)lib\manual-link\gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(VcpkgRoot)tools\crashrpt\dbghelp.dll" "$(TargetDir)"
-copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
+      <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
 copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -134,8 +131,7 @@ copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
       <AdditionalDependencies>Rpcrt4.lib;Version.lib;$(VcpkgRoot)lib\manual-link\gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(VcpkgRoot)tools\crashrpt\dbghelp.dll" "$(TargetDir)"
-copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
+      <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
 copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
