@@ -155,7 +155,8 @@ copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
-copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
+copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"
+copy "$(VcpkgRoot)tools\crashrpt\*.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -177,7 +178,8 @@ copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
-copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
+copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"
+copy "$(VcpkgRoot)tools\crashrpt\*.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release static-md|x64'">
@@ -221,7 +223,8 @@ copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
-copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
+copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"
+copy "$(VcpkgRoot)tools\crashrpt\*.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -243,7 +246,8 @@ copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(VcpkgRoot)tools\crashrpt\crashrpt_lang_EN.ini" "$(TargetDir)crashrpt_lang.ini"
-copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"</Command>
+copy "$(VcpkgRoot)tools\crashrpt\CrashSender1403.exe" "$(TargetDir)"
+copy "$(VcpkgRoot)tools\crashrpt\*.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
 </Project>
