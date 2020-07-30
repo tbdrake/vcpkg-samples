@@ -1,4 +1,3 @@
-#include "pch.h"
 #pragma warning(push)
 #pragma warning(disable : 5040) // dynamic exception specifications are valid only in C++14 and earlier...
 #include <crashrpt/CrashRpt.h>

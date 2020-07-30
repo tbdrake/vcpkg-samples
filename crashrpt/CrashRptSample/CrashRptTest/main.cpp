@@ -1,4 +1,3 @@
-#include "pch.h"
 #include <gtest/gtest.h>
 
 // main() added because tests are not discovered for some reason with gtest_main.dll
